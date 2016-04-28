@@ -1,4 +1,3 @@
-package level_0;
 
 import java.applet.AudioClip;
 
@@ -15,20 +14,21 @@ public class Dont_forgotTheLyrics {
 	 * 
 	 * 3. Drag your file from the Desktop into the "default package" under "src".
 	 */
-	
+
 	public static void main(String[] args) {
-	
+
 		JOptionPane.showMessageDialog(null, "You must type the word that follow the audio clip. Good Luck!");
 		playSound("audio.wav");
-		
-String x=JOptionPane.showInputDialog("Your answer");
-		
-if (x.equals("when I see you again")) {
-	JOptionPane.showMessageDialog(null, "You have the memory of an Elephant.");
-}
-		
-else {
-	JOptionPane.showMessageDialog(null, "You have a brain the size of a wallnut the answer was when I see you again");}
+
+		String x = JOptionPane.showInputDialog("Your answer");
+
+		if (x.equals("when I see you again")) {
+			JOptionPane.showMessageDialog(null, "You have the memory of an Elephant.");
+		}
+
+		else {
+			JOptionPane.showMessageDialog(null, "You have a brain the size of a wallnut the answer was when I see you again");
+		}
 		// 9. Record another sound and repeat steps 5-8.
 
 		// 10. [optional] Add a points variable that will calculate their final score.
@@ -39,36 +39,3 @@ else {
 		audioClip.play();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
