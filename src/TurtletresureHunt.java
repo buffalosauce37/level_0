@@ -109,3 +109,33 @@ if (tortoiseLocationX==180 && tortoiseLocationY==350){
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fart
